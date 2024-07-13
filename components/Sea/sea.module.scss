@@ -1,0 +1,15 @@
+.wrapper {
+    width: 100vw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+
+    .sea {
+        transform: scale3d(1, 1, 1);
+        height: 100%;
+        object-fit: contain;
+    }
+}
